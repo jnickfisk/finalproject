@@ -23,6 +23,7 @@ Here, we examine the whole-exome data of a cohort of lung cancer patients in the
 
 The data are human exome sequencing data paired with patient medical histories. The medical histories have been well-annonomized and the sequencing data has been previously published or otherwise made available. 
 Variants have been previously called; however, the raw reads have been retained and will be consulted in case of anomalousness. 
+
 --Illumina sequencing, but need to check on the kit used to enrich for exome and what specific sequencer was used. 
 ## Background
 
@@ -31,23 +32,37 @@ Continued development and application of these techniques will ultimately encaps
 In non-smoker lung carcinomas, EGFR mutations are incredibly common and, thus, a great target for the synthesis of topological information and effect size calculation in an expected way as a proof of concept for the utility of the methods described here. 
 Indeed, a small case study of 2 patients has already been completed and is pending publication; however, 2 patients does not give sufficient power to answer questions of effect size. 
 
+
 --I think some of my goal section can be moved here.
+
 --A bit more about EGFR
+
 --A bit more about lung carcinmoas
 
 
 ## Methods
 --Maybe validate SNV calls?
+
 --Also investigate using CNVs to constrain clades (subclones)
+
 IQTree for ML estimation of tree
+
 BEAST for Chronogram 
+
   -birth death model
+
   -coalescent
+
   -GTR 
+
 Ancestral state reconstruction in phangorn 
+
  -investigate using parameters optimized in BEAST to do so
+
 Use ggtree for visualization? 
+
 CancerEffectSize.R https://github.com/Townsend-Lab-Yale/cancereffectsizeR
+
 Investigate structural methods if time permits.
 
 
