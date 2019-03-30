@@ -20,8 +20,15 @@ Further, selection intensity can be used to determine the effect size of somatic
 Here, we examine the whole-exome data of a cohort of lung cancer patients in the broad context of their medical history. Specifically, we focus on the effect sizes of mutations in EGFR positive samples and the overall lineage structure of subsequent metastases. 
 
 ## The data
+The data comes from 2 main sources:
+The first set comes from data previously published in the PNAS paper "Early and multiple origins of metastatic lineages within primary tumors
+Zi-Ming Zhao, Bixiao Zhao, Yalai Bai, Atila Iamarino, Stephen G. Gaffney, Joseph Schlessinger, Richard P. Lifton, David L. Rimm, and Jeffrey P. Townsend
+From that patient pool, two had cancers (lung adenocarcinomas) that developed resistance to an EGFR targetted therapy. Further, they had greater than 5 samples, including normal somatic, primary sampling, and multiple metatises. 
+For their biological and biomedical interest, as well as the sampling robustness, they make for good data to prototype the methodology employeed here.
 
-The data are human exome sequencing data paired with patient medical histories. The medical histories have been well-annonomized and the sequencing data has been previously published or otherwise made available. 
+The second set of day come from a collaboration with Gilead (which I believe is unpublished [check this]) but has been approved for my use in the project at present. From there, I have usable whole exome data from 17 patients (4 excluded for quality reasons). These patients all have at least 3 samples; normal somatic, pre treatment, and post treatment. 
+
+The human exome sequencing data are paired with patient medical histories. The medical histories have been well-annonomized and the sequencing data has been previously published or otherwise made available. 
 Variants have been previously called; however, the raw reads have been retained and will be consulted in case of anomalousness. 
 
 --Illumina sequencing, but need to check on the kit used to enrich for exome and what specific sequencer was used. 
